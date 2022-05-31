@@ -15,22 +15,14 @@ class Dog {
 type Animal = Dog | Fish;
 
 // create a function that determines the type
+// https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates
 
 // answer
-export const isFish = (animal: Animal): animal is Fish => {
-  return !!(animal as Fish).swim;
-};
-
-const animal: Animal = new Fish();
+export const isFish = undefined
 
 function initiateSignatureMove(animal: Dog | Fish) {
   // implement this function
-  // answer
-  if (isFish(animal)) {
-    animal.swim();
-  } else {
-    animal.bark();
-  }
 }
 
+const animal: Animal = new Fish();
 initiateSignatureMove(animal);

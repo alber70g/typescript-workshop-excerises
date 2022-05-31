@@ -1,15 +1,15 @@
 // complete these lines, replace the anys
 
-type ANumber = number;
-type AString = string;
-type ABoolean = boolean;
-type AnEmpty = null;
+type ANumber = undefined
+type AString = undefined
+type ABoolean = undefined
+type AnEmpty = undefined
 
 // use unions of the above
-type APrimitive = ANumber | AString;
+type APrimitive = undefined
 
 // use APrimitive to describe an object with keys as string, and values as APrimitive
-type AnObject = { [key: string]: APrimitive };
+type AnObject = undefined
 
 // ===============================
 // Don't change below these lines

@@ -14,10 +14,10 @@
 
 // replace the anys to create a valid JSON
 
-type JSONPrimitive = string | number | boolean | null
-type JSONObject = { [k: string]: JSONValue }
-type JSONArray = JSONValue[]
-type JSONValue = JSONArray | JSONObject | JSONPrimitive
+type JSONPrimitive = undefined
+type JSONObject = undefined
+type JSONArray = undefined
+type JSONValue = undefined
 
 // ===============================
 // Don't change below these lines
